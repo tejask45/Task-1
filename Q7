@@ -1,0 +1,11 @@
+Q7/solution.py
+
+n=int(input("enter number="))
+if(n%400==0):
+    print(n,"IS Leap Year")
+elif(n%100==0):
+    print(n,"IS Not Leap Year")
+elif(n%4==0):
+    print(n,"IS Leap Year")
+else:
+    print(n,"Is Not Leap Year")

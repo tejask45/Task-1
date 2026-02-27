@@ -1,0 +1,13 @@
+Q8/solution.py
+
+n=int(input("enter number="))
+t=n
+s=0
+while(n>0):
+    r=n%10
+    s=s+(r*r*r)
+    n=n//10
+if(s==t):
+    print(t,"IS Armstrong")
+else:
+    print(t,"Is Not Armstrong")

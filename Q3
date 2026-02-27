@@ -1,0 +1,9 @@
+Q3/solution.py
+
+def fct(n):
+    if(n==0 or n==1):
+        return 1
+    else:
+        return n*fct(n-1)
+n=int(input("Enter number="))
+print("Factorial=",fct(n))

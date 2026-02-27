@@ -1,0 +1,5 @@
+Q5/solution.py
+
+a=input("Enter String=")
+b=a[::-1]
+print("reverse String=",b)
